@@ -80,7 +80,7 @@ https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOpQrStUvWxYz
 ```
 
 On the **first** run, your browser will open automatically for Google sign-in:
-1. Pick the test-user account you added in Step 30
+1. Pick the test-user account you added during setup
 2. Click "Continue" past the unverified-app warning
 3. Approve the Drive scope
 4. Browser shows "Authorization successful — you can close this tab"
