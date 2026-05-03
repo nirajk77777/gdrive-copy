@@ -1,6 +1,6 @@
 {
   "name": "gdrive-copy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copy a shared Google Drive folder to your own Google Drive",
   "author": "nirajk77777",
   "license": "MIT",
