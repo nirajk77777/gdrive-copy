@@ -32,8 +32,7 @@
     "node": ">=18"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "scripts": {
     "smoke": "node bin/gdrive-copy.js --help || true",
