@@ -1,5 +1,9 @@
 # gdrive-copy
 
+[![npm version](https://img.shields.io/npm/v/gdrive-copy.svg)](https://www.npmjs.com/package/gdrive-copy)
+[![license](https://img.shields.io/npm/l/gdrive-copy.svg)](./LICENSE)
+[![node](https://img.shields.io/node/v/gdrive-copy.svg)](https://nodejs.org)
+
 Copy a shared Google Drive folder (and everything inside it) to your own Google Drive — recursively, in parallel, with auto-resume if interrupted.
 
 Built because Google Drive's "Add shortcut" doesn't actually copy anything, and "Make a copy" only works on individual files. This tool walks the entire tree and copies every file and folder to your Drive.
@@ -38,7 +42,7 @@ After install, the `gdrive-copy` command is available globally.
 
 You need a Google Cloud OAuth client (a `credentials.json` file) before you can use the tool. It's a one-time setup that takes about 5 minutes.
 
-**See the full step-by-step guide with screenshots:** [docs/SETUP.md](./docs/SETUP.md)
+**See the full step-by-step guide with screenshots:** [docs/SETUP.md](https://github.com/nirajk77777/gdrive-copy/blob/main/docs/SETUP.md)
 
 The short version:
 1. Create a project in [Google Cloud Console](https://console.cloud.google.com)
@@ -173,7 +177,7 @@ On HTTP 429 (Drive API quota), the request is retried with exponential backoff: 
 
 ### `Access blocked: <app name> has not completed the Google verification process`
 
-Your Google email is not on the test-users list. Add it under **Audience → Test users → + Add users** in Google Cloud Console (see [docs/SETUP.md Step 29](./docs/SETUP.md#step-29--add-yourself-as-a-test-user)), then retry.
+Your Google email is not on the test-users list. Add it under **Audience → Test users → + Add users** in Google Cloud Console (see [docs/SETUP.md Step 29](https://github.com/nirajk77777/gdrive-copy/blob/main/docs/SETUP.md#step-29--add-yourself-as-a-test-user)), then retry.
 
 ### `Error: redirect_uri_mismatch`
 

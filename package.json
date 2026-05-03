@@ -2,9 +2,43 @@
   "name": "gdrive-copy",
   "version": "1.0.0",
   "description": "Copy a shared Google Drive folder to your own Google Drive",
-  "bin": { "gdrive-copy": "./bin/gdrive-copy.js" },
-  "files": ["bin/", "lib/"],
-  "engines": { "node": ">=16" },
+  "author": "nirajk77777",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirajk77777/gdrive-copy.git"
+  },
+  "homepage": "https://github.com/nirajk77777/gdrive-copy#readme",
+  "bugs": {
+    "url": "https://github.com/nirajk77777/gdrive-copy/issues"
+  },
+  "keywords": [
+    "google-drive",
+    "drive",
+    "copy",
+    "cli",
+    "backup",
+    "googleapis",
+    "shared-folder"
+  ],
+  "bin": {
+    "gdrive-copy": "./bin/gdrive-copy.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "smoke": "node bin/gdrive-copy.js --help || true",
+    "prepublishOnly": "npm run smoke && npm pack --dry-run"
+  },
   "dependencies": {
     "cli-progress": "^3.12.0",
     "googleapis": "^144.0.0",
