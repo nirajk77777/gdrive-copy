@@ -1,7 +1,7 @@
 # gdrive-copy
 
 [![npm version](https://img.shields.io/npm/v/gdrive-copy.svg)](https://www.npmjs.com/package/gdrive-copy)
-[![license](https://img.shields.io/npm/l/gdrive-copy.svg)](./LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![node](https://img.shields.io/node/v/gdrive-copy.svg)](https://nodejs.org)
 
 Copy a shared Google Drive folder (and everything inside it) to your own Google Drive — recursively, in parallel, with auto-resume if interrupted.
