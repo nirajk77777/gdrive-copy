@@ -85,12 +85,12 @@ A token is saved to `~/.config/gdrive-copy/token.json`. Subsequent runs skip the
 
 The tool then prints a header line and shows a live progress bar per folder being copied:
 ```
-Copying "Aditi & Niraj Wedding Photos" → My Drive root
+Copying "Summer Trip 2024 Photos" → My Drive root
 
-Copying: Candid/01 Haldi/01           [████████░░░░] 120/200 files
-Copying: Candid/01 Haldi/02           [██████░░░░░░]  90/180 files
-Copying: Candid/02 Mehendi/01         [██████████░░] 200/250 files
-Copying: Candid/04 Wedding            [█████░░░░░░░]  96/440 files
+Copying: Albums/01 Day One/01         [████████░░░░] 120/200 files
+Copying: Albums/01 Day One/02         [██████░░░░░░]  90/180 files
+Copying: Albums/02 Day Two/01         [██████████░░] 200/250 files
+Copying: Albums/04 Day Four           [█████░░░░░░░]  96/440 files
 ```
 
 When everything finishes:
